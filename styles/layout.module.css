@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh;
+    padding-top:5vh;
+    margin-top: 5vh;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.linkone:hover,
+.linkone:focus,
+.linkone:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.linkone {
+    margin: 2vh;
+    padding: 1vh;
+    border: 1px solid #eaeaea;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    main.main {
+        padding: 2vh;
+    }
+}
+
+
+
+
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    .globalNav {
+      flex-direction: column;
+    }
+}
+
+.mainNav {
+    background-color:#006fabc2 !important;
+}
