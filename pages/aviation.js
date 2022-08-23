@@ -1,13 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
 import Table from 'react-bootstrap/Table';
 import Card from 'react-bootstrap/Card';
-import Badge from 'react-bootstrap/Badge';
+import Alert from 'react-bootstrap/Alert';
+import Badge from 'react-bootstrap/Badge'
+import Button from 'react-bootstrap/Button'
+
+import teachingImg from '../public/images/teaching.jpeg'
 
 
-export default function Home() {
+export default function Aviation() {
   return (
     <div className={styles.container}>
       <Head>
@@ -28,76 +31,180 @@ export default function Home() {
 
             <div className="text-center">
                 <br></br>
-                <h2>Aviaiton Overview</h2>
+                <h2>Aviation Overview</h2>
                 
 
             </div>
         </div>
         <br /><br />
-        <div className="container text-left">
+        <div className="container row text-left sides">
+            <div className="col-sm">
             <h2>
-                Massachusetts Institute of Technology (MIT) <Badge bg="secondary">B.S. Aerospace Engineering, 2025</Badge>
+                Certificates and Qualifications
             </h2>
-            
-            <p>
-                I graduated with High Honors from Daytona State College as a dual enrollment student in high school. 
-                Courses included:
-                <ul>
-                    <li>Calculus I, II, III</li>
-                    <li>Differential Equations</li>
-                    <li>Physics with Calculus I, II</li>
-                </ul>
-                <Card>
-                    <Card.Body>Cumulative GPA: 4.0</Card.Body>
-                </Card>
-            </p>
-
-            <br /><br />
-            <h2>
-                UROP Research Experience <Badge bg="secondary">Oct 2021- May 2022</Badge>
-            </h2>
-            <p>
-            I worked as an undergraduate researcher in the Department of Aeronautics and Astronautics at MIT.
-
-            Relevant areas:
+           
+            Certificates and Ratings:
             <ul>
-            <li>Prototyping in XPlane 11</li>
-            <li>MATLAB Scripting</li>
-            <li>Git Version Control</li>
-            <li><a href="https://Electra.aero">Electra</a> - electric short takeoff and landing vehicle (eSTOL) urban air mobility technology</li>
+                <li>Commercial Pilot - ASEL</li>
+                <li>Commercial Pilot - AMEL</li>
+                <li>Certified Flight Instructor (CFI, ASE)</li>
+                <li>Certified Flight Instructor - Instrument</li>
+                <li>Certified Flight Instructor - Multi Engine (MEI, AME)</li>
             </ul>
-            What is my role? 
-
-            → I applied my aeronautical knowledge and experience to designing the cockpit for an entirely new and experimental aircraft. Due to the blown lift aerodynamics of the electra eSTOL vehicle, the approach and departure paths are significantly steeper than a traditional aircraft. I worked with a team of PhDs and MIT faculty to propose the visual elements, instrumentation/avionics layout, and UI design in the simulator before the technical demonstrator is built for real-world testing.
-
-            I have a passion for the urban mobility sector and I am fascinated by the idea of electric air taxis replacing inefficient modes of transportation today.
-            </p>
-            <br /><br />
-            <h2>
-                Daytona State College <Badge bg="secondary">A.A., 2021</Badge>
-            </h2>
             
-            <p>
-                I graduated with High Honors from Daytona State College as a dual enrollment student in high school. 
-                Courses included:
-                <ul>
-                    <li>Calculus I, II, III</li>
-                    <li>Differential Equations</li>
-                    <li>Physics with Calculus I, II</li>
-                </ul>
-                <Card>
-                    <Card.Body>Cumulative GPA: 4.0</Card.Body>
-                </Card>
-            </p>
+                <Table striped bordered hover variant="dark">
+                    <thead>
+                        <tr>
+                            <th>Total Time: 572</th>
+                            <th>Instrument: 102</th>
+                            <th>Dual Given: 185</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Multi Engine: 23</td>
+                            <td>High Perf: 36</td>
+                            <td>Pilot in Command: 522</td>
+                        </tr>
+                    </tbody>
+                </Table>
+                <Alert key={'primary'} variant={'primary'}>
+                    Update: I earned my MEI on August 17, 2022 at KSAV!
+                </Alert>
+            </div>
+            <div className="col-sm-3">
+               
+                  <Image 
+                  className="img img-responsive imgcasing" 
+                  src={teachingImg} 
+                  layout="intrinsic"
+                  style={{"border": "0.3vh solid blue"}}
+                  
+                  />
+                
+            </div>
+
+            
+        </div>
+        <br /><br />
+        <div className="container">
+        <h2 className="text-center">Aviation Work Experience</h2>
+
+            <div className="bg-dark text-white row" style={{margin:"3vh"}}>
+                <div className="col-sm" style={{padding:"3vh"}}>
+                    <h3>Avier Flight School   <Badge>Jan 2022 - Present</Badge></h3>
+
+                        I am a CFII/MEI at Avier Flight School, teaching the following flight training courses:
+                        <ul>
+                            <li>Private Pilot</li>
+                            <li>Instrument Rating</li>
+                            <li>Commercial Pilot</li>
+                            <li>Certified Flight Instructor + CFII/MEI</li>
+                        </ul>
+                </div>
+
+                <div className="col-sm" style={{padding:"3vh"}}>
+                    <strong>Address:</strong><br />
+                    47 LP Henderson Rd. <br />
+                    Beverly, MA 01915<br /><br />
+                    <Button target="_blank" href="https://avierflight.com">Website</Button>
+                    <br /><br />
+                    Supervisor: Paul Beaulieu, Owner <br /><br />
+                    <Button target="_blank" href="tel:9788939513">Call Avier</Button>
+                    <Button target="_blank" style={{marginLeft: "2vh"}} href="mailto:paul@avierflight.com">Email Supervisor</Button>
+                </div>
+
+            </div>
+
+            <div className="bg-dark text-white row" style={{margin:"3vh"}}>
+                <div className="col-sm" style={{padding:"3vh"}}>
+                    <h3>Gulfstream Aerospace   <Badge>May 2022 - Aug 2022</Badge></h3>
+
+                        I wored as a flight operations intern for Gulfstream Flight Operations. I: 
+                        <ul>
+                            <li>Worked to enhance processes and methods within Gulfstream Flight Operations</li>
+                            <li>Utilized Python and Power BI to analyze and present meaningful insights to leadership</li>
+                            <li>Applied technical skills to automate out of date scheduling and approvals processes</li>
+                            <li>Learned from the best on the corporate aviation industry</li>
+                        </ul>
+                </div>
+
+                <div className="col-sm" style={{padding:"3vh"}}>
+                    <strong>Address:</strong><br />
+                    500 Gulfstream Road <br />
+                    Savannah, GA 31408<br /><br />
+                    <Button target="_blank" href="https://gulfstream.com">Website</Button>
+                    <br /><br />
+                    Supervisor: Brandon Lundy, Flight Operations Supervisor <br /><br />
+                    <Button target="_blank" href="mailto:brandon.lundy@gulfstream.com">Email Supervisor</Button>
+                </div>
+
+            </div>
+
+            <div className="bg-dark text-white row" style={{margin:"3vh"}}>
+                <div className="col-sm" style={{padding:"3vh"}}>
+                    <h3>FlyCorps Aviation   <Badge>May 2022 - Aug 2022</Badge></h3>
+
+                        I wored as a flight instructor (CFI-I) for FlyCorps while in Savannah for the summer.
+                        <ul>
+                            <li>Taught IFR and CPL courses</li>
+                            <li>Earned CMEL and MEI add-on ratings</li>
+                        </ul>
+                </div>
+
+                <div className="col-sm" style={{padding:"3vh"}}>
+                    <strong>Address:</strong><br />
+                    100 Eddie Jungemann Dr <br/>Savannah, GA 31408<br /><br />
+                    <Button target="_blank" href="https://flycorps.com">Website</Button>
+                    <br /><br />
+                    Supervisor: Jake Becker, Owner <br /><br />
+                    <Button target="_blank" href="mailto:jake@flycorps.com">Email Supervisor</Button>
+                </div>
+
+            </div>
+
+            <div className="bg-dark text-white row" style={{margin:"3vh"}}>
+                <div className="col-sm" style={{padding:"3vh"}}>
+                    <h3>FlyHdg360   <Badge>Aug 2021 - Present</Badge></h3>
+
+                        FlyHdg360 is my independant flight instructing company. I offer:
+                        <ul>
+                            <li>Instruction in owned aircraft</li>
+                            <li>Flight school referrals</li>
+                            <li>Mock ground oral exams</li>
+                            <li>Complex/High Perf aircraft checkouts</li>
+                            <li>Rusty pilot training</li>
+                            <li>Nonprofit flight training</li>
+                        </ul>
+                </div>
+
+                <div className="col-sm" style={{padding:"3vh"}}>
+                
+                    <Button target="_blank" href="https://flyhdg360.com">Website</Button>
+                    <br /><br />
+                    
+                </div>
+
+            </div>
+
+            
+            
+            
+            
+            
+         
+
 
         </div>
+         
+
+  
 
         
       </main>
 
-      <footer className={styles.footer}>
-        
-      </footer>
+    
     </div>
   )
 }

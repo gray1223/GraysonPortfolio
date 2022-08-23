@@ -94,8 +94,17 @@
 .aviationlanding {
   height: 75vh;
   width: 100vw;
-  background-image: url("../public/images/academics.jpeg");
+  background-image: url("../public/images/sideprofile.jpeg");
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.entrepeneurshiplanding {
+  height: 75vh;
+  width: 100vw;
+  background-image: url("../public/images/zing.jpeg");
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -143,6 +152,12 @@
 
 }
 
+.experience{
+  background-color: #3e3e3e;
+  padding: 2vh;
+  margin: 2vh;
+  color: white;
+}
 
 
 @media (max-width: 600px) {
