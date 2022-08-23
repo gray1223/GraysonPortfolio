@@ -8,6 +8,8 @@ import Badge from 'react-bootstrap/Badge'
 import Button from 'react-bootstrap/Button'
 
 import zingImg from '../public/images/zing3.jpeg'
+import flyhdg360 from '../public/images/flyhdg360.jpeg'
+import gav from '../public/images/gav.jpeg'
 
 
 export default function Entrepeneurship() {
@@ -23,7 +25,7 @@ export default function Entrepeneurship() {
 
           
         <h1 className={styles.title}>Entrepeneurship</h1>
-        <h3 className={styles.code}>Overview of my atypical pursuits.</h3>
+        <h3 className={styles.code}>Not the usual stuff.</h3>
         <div className={styles.entrepeneurshiplanding}></div>
         <div className={styles.container}>
           
@@ -37,7 +39,7 @@ export default function Entrepeneurship() {
             </div>
         </div>
         <br /><br />
-        <div className="container row text-left sides">
+        <div className="container row text-left sides bg-light" style={{padding: "2vh"}}>
 
             <div className="col-sm-3">
                 
@@ -72,117 +74,101 @@ export default function Entrepeneurship() {
                     Zing will raise a seed funding round starting Q4 of 2022!
                 </Alert>
             </div>
-            
+             
+        </div>
+
+        <div className="container row text-left sides bg-light" style={{marginTop: "5vh", padding: "2vh"}}>
 
             
+            <div className="col-sm" >
+            <h2>
+                FlyHdg360
+            </h2>
+
+            <h5>
+                I started <strong>FlyHdg360 </strong> in 2021 after becoming a CFI. I still utilize FlyHdg360 
+                to work as an independant flight instructor, provide checkride prep services, 
+                teach with the Tech Flight Corps (nonprofit), and generate material.
+                <br /><br />
+                <Button href="https://flyhdg360.com/" target="_blank">Website</Button>
+
+            </h5>
+           
+            </div>
+            <div className="col-sm-3">
+                
+                <Image 
+                className="img img-responsive imgcasing" 
+                src={flyhdg360} 
+                layout="intrinsic"
+                style={{"border": "0.3vh solid blue"}}
+                
+                />
+                
+            </div>
+             
         </div>
+
+        <div className="container row text-left sides bg-light" style={{marginTop: "5vh", padding: "2vh"}}>
+
+            <div className="col-sm-4">
+                
+                <Image 
+                className="img img-responsive imgcasing" 
+                src={gav} 
+                layout="intrinsic"
+                style={{"border": "0.3vh solid blue"}}
+                
+                />
+                
+            </div>
+            <div className="col-sm">
+            <h2>
+                Gray AerialVisual
+            </h2>
+
+            <h5>
+                I started <strong>Gray AerialVisual </strong> at the age of 12 with help from my parents. Initially, 
+                I was most interested in aerial photography with drones. I later added website development and 
+                marketing to my services. When I turned 16, I earned my <strong>FAA Part 107 certificate </strong> and began operating 
+                on my own for a variety of real estate and misc clients in the Volusia County Area. 
+                <br /><br />
+                <Button href="https://grayaerialvisual.com/" target="_blank">Website</Button>
+
+            </h5>
+     
+            </div>
+             
+        </div>
+
+
         <br /><br />
         <div className="container">
-        <h2 className="text-center">Aviation Work Experience</h2>
+        <h2 className="text-center">Misc Work Experience</h2>
 
             <div className="bg-dark text-white row" style={{margin:"3vh"}}>
                 <div className="col-sm" style={{padding:"3vh"}}>
-                    <h3>Avier Flight School   <Badge>Jan 2022 - Present</Badge></h3>
+                    <h3>Georgian Inn Beach Club   <Badge>March 2020 - Aug 2021</Badge></h3>
 
-                        I am a CFII/MEI at Avier Flight School, teaching the following flight training courses:
+                        I worked as the Software Administrator at GIBC. My role included: 
                         <ul>
-                            <li>Private Pilot</li>
-                            <li>Instrument Rating</li>
-                            <li>Commercial Pilot</li>
-                            <li>Certified Flight Instructor + CFII/MEI</li>
+                            <li>Finding and implementing a new property management system</li>
+                            <li>Creating a new website for the Georgian Inn</li>
+                            <li>Working with software service providers to develop a custom booking solution</li>
+                            <li>Training and monitoring rollout on site</li>
                         </ul>
                 </div>
 
                 <div className="col-sm" style={{padding:"3vh"}}>
                     <strong>Address:</strong><br />
-                    47 LP Henderson Rd. <br />
-                    Beverly, MA 01915<br /><br />
-                    <Button target="_blank" href="https://avierflight.com">Website</Button>
+                    759 S Atlantic Ave<br /> Ormond Beach, FL 32176<br /><br />
+                    <Button target="_blank" href="https://gi-bc.com">Website</Button>
                     <br /><br />
-                    Supervisor: Paul Beaulieu, Owner <br /><br />
-                    <Button target="_blank" href="tel:9788939513">Call Avier</Button>
-                    <Button target="_blank" style={{marginLeft: "2vh"}} href="mailto:paul@avierflight.com">Email Supervisor</Button>
+                    Supervisor: Marty Young, General Manager <br /><br />
+                    <Button target="_blank" href="mailto:gm@gi-bc.com">Email Supervisor</Button>
                 </div>
 
             </div>
-
-            <div className="bg-dark text-white row" style={{margin:"3vh"}}>
-                <div className="col-sm" style={{padding:"3vh"}}>
-                    <h3>Gulfstream Aerospace   <Badge>May 2022 - Aug 2022</Badge></h3>
-
-                        I wored as a flight operations intern for Gulfstream Flight Operations. I: 
-                        <ul>
-                            <li>Worked to enhance processes and methods within Gulfstream Flight Operations</li>
-                            <li>Utilized Python and Power BI to analyze and present meaningful insights to leadership</li>
-                            <li>Applied technical skills to automate out of date scheduling and approvals processes</li>
-                            <li>Learned from the best on the corporate aviation industry</li>
-                        </ul>
-                </div>
-
-                <div className="col-sm" style={{padding:"3vh"}}>
-                    <strong>Address:</strong><br />
-                    500 Gulfstream Road <br />
-                    Savannah, GA 31408<br /><br />
-                    <Button target="_blank" href="https://gulfstream.com">Website</Button>
-                    <br /><br />
-                    Supervisor: Brandon Lundy, Flight Operations Supervisor <br /><br />
-                    <Button target="_blank" href="mailto:brandon.lundy@gulfstream.com">Email Supervisor</Button>
-                </div>
-
-            </div>
-
-            <div className="bg-dark text-white row" style={{margin:"3vh"}}>
-                <div className="col-sm" style={{padding:"3vh"}}>
-                    <h3>FlyCorps Aviation   <Badge>May 2022 - Aug 2022</Badge></h3>
-
-                        I wored as a flight instructor (CFI-I) for FlyCorps while in Savannah for the summer.
-                        <ul>
-                            <li>Taught IFR and CPL courses</li>
-                            <li>Earned CMEL and MEI add-on ratings</li>
-                        </ul>
-                </div>
-
-                <div className="col-sm" style={{padding:"3vh"}}>
-                    <strong>Address:</strong><br />
-                    100 Eddie Jungemann Dr <br/>Savannah, GA 31408<br /><br />
-                    <Button target="_blank" href="https://flycorps.com">Website</Button>
-                    <br /><br />
-                    Supervisor: Jake Becker, Owner <br /><br />
-                    <Button target="_blank" href="mailto:jake@flycorps.com">Email Supervisor</Button>
-                </div>
-
-            </div>
-
-            <div className="bg-dark text-white row" style={{margin:"3vh"}}>
-                <div className="col-sm" style={{padding:"3vh"}}>
-                    <h3>FlyHdg360   <Badge>Aug 2021 - Present</Badge></h3>
-
-                        FlyHdg360 is my independant flight instructing company. I offer:
-                        <ul>
-                            <li>Instruction in owned aircraft</li>
-                            <li>Flight school referrals</li>
-                            <li>Mock ground oral exams</li>
-                            <li>Complex/High Perf aircraft checkouts</li>
-                            <li>Rusty pilot training</li>
-                            <li>Nonprofit flight training</li>
-                        </ul>
-                </div>
-
-                <div className="col-sm" style={{padding:"3vh"}}>
-                
-                    <Button target="_blank" href="https://flyhdg360.com">Website</Button>
-                    <br /><br />
-                    
-                </div>
-
-            </div>
-
-            
-            
-            
-            
-            
-         
 
 
         </div>

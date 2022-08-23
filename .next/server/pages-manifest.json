@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/academics": "pages/academics.js",
-  "/entrepeneurship": "pages/entrepeneurship.js",
+  "/": "pages/index.js",
   "/aviation": "pages/aviation.js"
 }
