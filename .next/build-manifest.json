@@ -30,11 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/academics": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/academics.js"
-    ],
     "/aviation": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
