@@ -8,6 +8,7 @@ import Badge from 'react-bootstrap/Badge'
 import Button from 'react-bootstrap/Button'
 
 import teachingImg from '../public/images/teaching.jpeg'
+import flyingImg from '../public/images/gulfstream.jpeg'
 
 
 export default function Aviation() {
@@ -196,6 +197,17 @@ export default function Aviation() {
          
 
 
+        </div>
+
+        <div className="container">
+
+            <Image 
+            src={flyingImg}
+            layout="intrinsic"
+            style={{"border": "0.3vh solid blue"}}
+            className="img img-responsive"
+            
+            />
         </div>
          
 
