@@ -34,16 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/academics.js"
-    ],
-    "/aviation": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/aviation.js"
-    ],
-    "/entrepeneurship": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/entrepeneurship.js"
     ]
   },
   "ampFirstPages": []

@@ -67,7 +67,7 @@ export default function Home() {
               </div>
             </a>
 
-            <a href="../public/diploma.pdf" className={styles.card}>
+            <a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ac8f40e0-646a-4230-9838-da08d69787cd/currentSummaryAug22.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220825%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220825T115534Z&X-Amz-Expires=86400&X-Amz-Signature=9212afcd060c18dc5f8d9a3b35de3ad76f67cd95c98fb0f09b9acba9d974b87d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22AeronauticalExperienceSummary.pdf%22&x-id=GetObject" download className={styles.card}>
               <div >
                 <h3>Pilot Certificates</h3>
                 <Button variant="outline-primary">Download</Button>
@@ -84,7 +84,7 @@ export default function Home() {
 
         </div>
         <br /><br />
-        <embed src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7cba564e-1066-440c-83d4-dd9da9106184/GraysonBertainaresume.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T003942Z&X-Amz-Expires=86400&X-Amz-Signature=d2cf6e8ed09474f3572c02d9a7e0c33f55384fb8ac161fbd4fabeef449eac8a6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22GraysonBertainaresume.pdf%22&x-id=GetObject" 
+        <embed src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7cba564e-1066-440c-83d4-dd9da9106184/GraysonBertainaresume.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220825%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220825T115736Z&X-Amz-Expires=86400&X-Amz-Signature=c5a09f36a565bcad6870f292a5fef6ce61b7409cd88a7d2c9c422a39059e32c4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22GraysonBertainaresume.pdf%22&x-id=GetObject" 
           width="80%" height="800"
           type="application/pdf"></embed>
 
