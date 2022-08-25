@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/entrepeneurship": "pages/entrepeneurship.js",
+  "/aviation": "pages/aviation.js",
   "/academics": "pages/academics.js",
-  "/": "pages/index.js",
-  "/aviation": "pages/aviation.js"
+  "/": "pages/index.js"
 }
