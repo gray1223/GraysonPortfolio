@@ -45,12 +45,12 @@ export default function Home() {
             </h2>
             
             
-                I graduated with High Honors from Daytona State College as a dual enrollment student in high school. 
-                Courses included:
+                I am currently studying Aerospace Engineering at MIT with a minor in Entrepeneurship and Innovation.
+                MIT's AeroAstro '25
                 <ul>
-                    <li>Calculus I, II, III</li>
-                    <li>Differential Equations</li>
-                    <li>Physics with Calculus I, II</li>
+                    <li>UROP Research Experience (See below)</li>
+                    <li>MIT Flying Club - Treasurer</li>
+                    <li>Current Status: Sophomore</li>
                 </ul>
                 <Card>
                     <Card.Body>Cumulative GPA: 4.0</Card.Body>
