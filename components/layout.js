@@ -20,6 +20,7 @@ export default function Layout({ children }) {
             <Nav.Link href="/academics">Academics</Nav.Link>
             <Nav.Link href="/aviation">Aviation</Nav.Link>
             <Nav.Link href="/entrepeneurship">Entrepeneurship</Nav.Link>
+            <Nav.Link href="/services">Services</Nav.Link>
             
           </Nav>
         </Navbar.Collapse>
