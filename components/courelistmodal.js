@@ -115,9 +115,9 @@ function ModalDisp() {
                     <td>Islam, Iran, and the Middle East</td>
                     </tr>
                     <tr>
-                    <td>TBD</td>
+                    <td>15.388</td>
                     <td>Fall 2022</td>
-                    <td>TBD</td>
+                    <td>Venture Creation Tactics</td>
                     </tr>
 
                     <tr>
