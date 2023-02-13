@@ -119,6 +119,32 @@ function ModalDisp() {
                     <td>Fall 2022</td>
                     <td>TBD</td>
                     </tr>
+
+                    <tr>
+                    <td>16.003</td>
+                    <td>Spring 2023</td>
+                    <td>Unified Engineering: Fluid Dynamics</td>
+                    </tr>
+                    <tr>
+                    <td>16.004</td>
+                    <td>Spring 2023</td>
+                    <td>Unified Engineering: Thermodynamics and Propulsion</td>
+                    </tr>
+                    <tr>
+                    <td>21A.500</td>
+                    <td>Spring 2023</td>
+                    <td>Technology and Culture</td>
+                    </tr>
+                    <tr>
+                    <td>17.569</td>
+                    <td>Spring 2023</td>
+                    <td>Russia's Foreign Policy</td>
+                    </tr>
+                    <tr>
+                    <td>15.6181</td>
+                    <td>Fall 2022</td>
+                    <td>Startups and the Law</td>
+                    </tr>
                 </tbody>
                 </Table>
 
