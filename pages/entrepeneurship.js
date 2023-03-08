@@ -57,13 +57,17 @@ export default function Entrepeneurship() {
                 Zing Drone Solutions
             </h2>
 
+            
+
             <h5>
                 I have been a part of <strong>Zing Drone Solutions </strong> since 2020. I joined as 
-                <em> Head of Flight Operations </em> and was promoted to <em>Chief Operating Officer (COO) </em> 
-                in January, 2022. Since I joined, Zing has raised about <strong>$250,000</strong> in funding. 
+                <em> Head of Flight Operations </em> and was promoted to <em>Chief Operating Officer (COO)</em>
+                in January, 2022. I transitioned into a new role of <em>Chief Innovation Officer (CIO)</em> in 
+                March 2023. Since I joined, Zing has raised about <strong>$250,000</strong> in funding. 
                 My role includes managing our FAA Part 107 Category and Part 135 certification efforts, brainstorming
                 with the core team, business analytics/strategy, and to act as an in-house technical aerospace 
-                expert.
+                expert. I also use project management skills to lead the engineering/product development team
+                here in our Cambridge, MA office.
                 <br /><br />
                 <Button href="https://wefunder.com/zing" target="_blank">Zing's WeFunder Campaign - Closed April 2022</Button>
                 <Button href="https://zingdrones.com/" style={{marginLeft: "3vh"}} target="_blank">Zing's Website</Button>

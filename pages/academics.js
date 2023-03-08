@@ -49,7 +49,7 @@ export default function Home() {
                 MIT's AeroAstro '25
                 <ul>
                     <li>UROP Research Experience (See below)</li>
-                    <li>MIT Flying Club - Treasurer</li>
+                    <li>MIT Flying Club - President</li>
                     <li>Current Status: Sophomore</li>
                 </ul>
                 <Card>

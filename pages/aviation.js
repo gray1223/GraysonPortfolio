@@ -56,9 +56,9 @@ export default function Aviation() {
                 <Table striped bordered hover variant="dark">
                     <thead>
                         <tr>
-                            <th>Total Time: 830</th>
+                            <th>Total Time: 850</th>
                             <th>Instrument: 110</th>
-                            <th>Dual Given: 400</th>
+                            <th>Dual Given: 420</th>
                         </tr>
                     </thead>
 
@@ -66,7 +66,7 @@ export default function Aviation() {
                         <tr>
                             <td>Multi Engine: 27</td>
                             <td>High Perf: 50</td>
-                            <td>Pilot in Command: 740</td>
+                            <td>Pilot in Command: 760</td>
                         </tr>
                     </tbody>
                 </Table>
