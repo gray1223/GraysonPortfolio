@@ -33,7 +33,7 @@ export default function Home() {
 
                 
                 <Card>
-                    <Card.Body>Cumulative MIT GPA: 4.6</Card.Body>
+                    <Card.Body>Cumulative MIT GPA: 4.7</Card.Body>
                 </Card>
 
             </div>
@@ -50,10 +50,10 @@ export default function Home() {
                 <ul>
                     <li>UROP Research Experience (See below)</li>
                     <li>MIT Flying Club - President</li>
-                    <li>Current Status: Sophomore</li>
+                    <li>Current Status: Junior</li>
                 </ul>
                 <Card>
-                    <Card.Body>Cumulative GPA: 4.6/5.0</Card.Body>
+                    <Card.Body>Cumulative GPA: 4.7/5.0</Card.Body>
                 </Card>
             
 

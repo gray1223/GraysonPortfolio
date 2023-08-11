@@ -56,22 +56,22 @@ export default function Aviation() {
                 <Table striped bordered hover variant="dark">
                     <thead>
                         <tr>
-                            <th>Total Time: 850</th>
-                            <th>Instrument: 110</th>
-                            <th>Dual Given: 420</th>
+                            <th>Total Time: 1160</th>
+                            <th>Instrument: 135</th>
+                            <th>Dual Given: 720</th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>Multi Engine: 27</td>
-                            <td>High Perf: 50</td>
-                            <td>Pilot in Command: 760</td>
+                            <td>Multi Engine: 35</td>
+                            <td>High Perf: 75</td>
+                            <td>Pilot in Command: 1104</td>
                         </tr>
                     </tbody>
                 </Table>
                 <Alert key={'primary'} variant={'primary'}>
-                    Update: I earned my MEI on August 17, 2022 at KSAV!
+                    Update: I am working towards IFR 135 PIC qualification on the PA-31 Navajo Chieftain!
                 </Alert>
             </div>
             <div className="col-sm-3">

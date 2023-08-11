@@ -33,7 +33,7 @@ export default function Home() {
         <div className={styles.serviceslanding}></div>
         <p className={styles.description}>
           My rates and packages are below! I typically repond within a few hours.<br /><br/>
-          <em>Standard CFI Rate (All Services): $45/hr</em>
+          <em>Standard CFI Rate (All Services): $55/hr</em>
           
         </p>
         <h5>Learn more about my background in each of the following areas:</h5>
