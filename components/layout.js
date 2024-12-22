@@ -34,7 +34,7 @@ export default function Layout({ children }) {
 
 
       <footer className={styles.footer}>
-          <p>Grayson Bertaina, All Rights Reserved ©2022 </p>
+          <p>Grayson Bertaina, All Rights Reserved ©2025 </p>
           <div className={styles.links}>
             <div>
                 <a className={styles.button, styles.linkone} href="tel:8578297049">Call Me</a>

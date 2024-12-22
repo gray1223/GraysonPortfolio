@@ -46,32 +46,35 @@ export default function Aviation() {
            
             Certificates and Ratings:
             <ul>
-                <li>Commercial Pilot - ASEL</li>
-                <li>Commercial Pilot - AMEL</li>
-                <li>Certified Flight Instructor (CFI, ASE)</li>
-                <li>Certified Flight Instructor - Instrument</li>
-                <li>Certified Flight Instructor - Multi Engine (MEI, AME)</li>
+                <li>Airline Transport Pilot - AMEL</li>
+                <li>Airbus A-320 Type Rating</li>
+                <li>Airline Transport Pilot - ASEL</li>
+                <li>Cirrus Vision Jet SF50 Type Rating</li>
+                <li>Certified Flight Instructor (CFI) - Single Engine</li>
+                <li>Certified Flight Instructor (CFII) - Instrument</li>
+                <li>Certified Flight Instructor (MEI) - Multi Engine</li>
+                <li>Gold Seal Flight Instructor</li>
             </ul>
             
                 <Table striped bordered hover variant="dark">
                     <thead>
                         <tr>
-                            <th>Total Time: 1160</th>
-                            <th>Instrument: 135</th>
-                            <th>Dual Given: 720</th>
+                            <th>Total Time: 1558</th>
+                            <th>Instrument: 180</th>
+                            <th>Dual Given: 950</th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>Multi Engine: 35</td>
-                            <td>High Perf: 75</td>
-                            <td>Pilot in Command: 1104</td>
+                            <td>Multi Engine: 67</td>
+                            <td>High Perf: 210</td>
+                            <td>Pilot in Command: 1486</td>
                         </tr>
                     </tbody>
                 </Table>
                 <Alert key={'primary'} variant={'primary'}>
-                    Update: I am working towards IFR 135 PIC qualification on the PA-31 Navajo Chieftain!
+                    Update: I am operating the SF50 Vision Jet based out of the Boston area as of January 2025.
                 </Alert>
             </div>
             <div className="col-sm-3">
@@ -92,11 +95,60 @@ export default function Aviation() {
         <div className="container">
         <h2 className="text-center">Aviation Work Experience</h2>
 
+
+
             <div className="bg-dark text-white row" style={{margin:"3vh"}}>
                 <div className="col-sm" style={{padding:"3vh"}}>
-                    <h3>Avier Flight School   <Badge>Jan 2022 - Present</Badge></h3>
+                    <h3>FlyHdg360   <Badge>Aug 2021 - Present</Badge></h3>
 
-                        I am a CFII/MEI at Avier Flight School, teaching the following flight training courses:
+                        I am qualified as a Cirrus Vision Jet SF50 Captain and offer professional pilot services through my company, FlyHdg360. I also hold
+                        a gold seal CFI certificate and provide instruction for private clients in the Boston area. 
+                        <ul>
+                            <li>Manage and direct aircraft operations for private clients.</li>
+                            <li>Provide Vision Jet Captain services.</li>
+                            <li>Work as an experienced flight instructor towards all certificate and rating levels.</li>
+                        </ul>
+                </div>
+
+                <div className="col-sm" style={{padding:"3vh"}}>
+                    <strong>Address:</strong><br />
+                    Cambridge, MA 02139<br /><br />
+                    <Button target="_blank" href="https://flyhdg360.com">Website</Button>
+                    <br /><br />
+                    Role: President <br /><br />
+                    <Button target="_blank" style={{marginLeft: "2vh"}} href="mailto:grayson@flyhdg360.com">Email FlyHdg360</Button>
+                </div>
+
+            </div>
+            
+            <div className="bg-dark text-white row" style={{margin:"3vh"}}>
+                <div className="col-sm" style={{padding:"3vh"}}>
+                    <h3>AeroCharterNE   <Badge>Sept 2023 - Present</Badge></h3>
+
+                        I contract to operate part 91 flights in the Piper Navajo and King Air E90.
+                        <ul>
+                            <li>Conduct all weather flight operations in high performance multi engine aircraft.</li>
+                            <li>Provide outstanding customer service to clients.</li>
+                        </ul>
+                </div>
+
+                <div className="col-sm" style={{padding:"3vh"}}>
+                    <strong>Address:</strong><br />
+                    265 Fruit St <br />
+                    Mansfield, MA 02048<br /><br />
+                    <Button target="_blank" href="https://avierflight.com">Website</Button>
+                    <br /><br />
+                    Supervisor: Mitch Roberts, President <br /><br />
+                    <Button target="_blank" style={{marginLeft: "2vh"}} href="mailto:mroberts@aerocharterne.com">Email Supervisor</Button>
+                </div>
+
+            </div>
+
+            <div className="bg-dark text-white row" style={{margin:"3vh"}}>
+                <div className="col-sm" style={{padding:"3vh"}}>
+                    <h3>Avier Flight School   <Badge>Jan 2022 - Jan 2024</Badge></h3>
+
+                        I worked as a CFII/MEI at Avier Flight School, teaching the following flight training courses:
                         <ul>
                             <li>Private Pilot</li>
                             <li>Instrument Rating</li>
@@ -164,34 +216,6 @@ export default function Aviation() {
                 </div>
 
             </div>
-
-            <div className="bg-dark text-white row" style={{margin:"3vh"}}>
-                <div className="col-sm" style={{padding:"3vh"}}>
-                    <h3>FlyHdg360   <Badge>Aug 2021 - Present</Badge></h3>
-
-                        FlyHdg360 is my independant flight instructing company. I offer:
-                        <ul>
-                            <li>Instruction in owned aircraft</li>
-                            <li>Flight school referrals</li>
-                            <li>Mock ground oral exams</li>
-                            <li>Complex/High Perf aircraft checkouts</li>
-                            <li>Rusty pilot training</li>
-                            <li>Nonprofit flight training</li>
-                        </ul>
-                </div>
-
-                <div className="col-sm" style={{padding:"3vh"}}>
-                
-                    <Button target="_blank" href="https://flyhdg360.com">Website</Button>
-                    <br /><br />
-                    
-                </div>
-
-            </div>
-
-            
-            
-            
             
             
          

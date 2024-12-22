@@ -25,7 +25,6 @@ export default function Entrepeneurship() {
 
           
         <h1 className={styles.title}>Entrepeneurship</h1>
-        <h3 className={styles.code}>Not the usual stuff.</h3>
         <div className={styles.entrepeneurshiplanding}></div>
         <div className={styles.container}>
           
@@ -63,11 +62,11 @@ export default function Entrepeneurship() {
                 I have been a part of <strong>Zing Drone Solutions </strong> since 2020. I joined as 
                 <em> Head of Flight Operations </em> and was promoted to <em>Chief Operating Officer (COO) </em>
                 in January, 2022. I transitioned into a new role of <em>Chief Innovation Officer (CIO)</em> in 
-                March 2023. Since I joined, Zing has raised about <strong>$250,000</strong> in funding. 
+                March 2023. Since I joined, Zing has raised about <strong>$400,000</strong> in funding. 
                 My role includes managing our FAA Part 107 Category and Part 135 certification efforts, brainstorming
                 with the core team, business analytics/strategy, and to act as an in-house technical aerospace 
-                expert. I also use project management skills to lead the engineering/product development team
-                here in our Cambridge, MA office.
+                expert. I used project management skills to recruit and lead the engineering/product development team that 
+                developed Z-RID and Z-RID Lite, which have sold 2,000+ units and earned over $175,000 in gross revenue.
                 <br /><br />
                 <Button href="https://wefunder.com/zing" target="_blank">Zing's WeFunder Campaign - Closed April 2022</Button>
                 <Button href="https://zingdrones.com/" style={{marginLeft: "3vh"}} target="_blank">Zing's Website</Button>
@@ -75,7 +74,7 @@ export default function Entrepeneurship() {
             </h5>
            
                 <Alert key={'warning'} variant={'warning'}>
-                    Zing will raise a seed funding round starting Q4 of 2022!
+                    Zing recently released a new product, Z-Scan!
                 </Alert>
             </div>
              
@@ -91,8 +90,8 @@ export default function Entrepeneurship() {
 
             <h5>
                 I started <strong>FlyHdg360 </strong> in 2021 after becoming a CFI. I still utilize FlyHdg360 
-                to work as an independant flight instructor, provide checkride prep services, 
-                teach with the Tech Flight Corps (nonprofit), and generate material.
+                to work as an independant flight instructor, professional pilot, provide checkride prep services, 
+                teach with Tech Flight Corp (nonprofit), and generate material.
                 <br /><br />
                 <Button href="https://flyhdg360.com/" target="_blank">Website</Button>
 

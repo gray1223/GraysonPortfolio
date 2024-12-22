@@ -145,6 +145,92 @@ function ModalDisp() {
                     <td>Fall 2022</td>
                     <td>Startups and the Law</td>
                     </tr>
+
+                    <tr colSpan={3}><br></br></tr>
+                    <tr>
+                    <td colSpan={3}>Junior Year: 2023-2024</td>
+
+                    </tr>
+
+                    <tr>
+                    <td>15.305</td>
+                    <td>Fall 2023</td>
+                    <td>Leadership and Management</td>
+                    </tr>
+                    <tr>
+                    <td>15.6221</td>
+                    <td>Fall 2023</td>
+                    <td>Law of AI, Big Data, and Social Media</td>
+                    </tr>
+                    <tr>
+                    <td>16.07</td>
+                    <td>Fall 2023</td>
+                    <td>Dynamics</td>
+                    </tr>
+                    <tr>
+                    <td>16.100</td>
+                    <td>Fall 2023</td>
+                    <td>Aerodynamics</td>
+                    </tr>
+                    <tr>
+                    <td>16.400</td>
+                    <td>Fall 2023</td>
+                    <td>Human Systems Engineering</td>
+                    </tr>
+                    <tr>
+                    <td>21M.294</td>
+                    <td>Fall 2023</td>
+                    <td>Popular Musics of the World</td>
+                    </tr>
+
+                    <tr>
+                    <td>9.00</td>
+                    <td>Spring 2024</td>
+                    <td>Introduction to Psychological Science</td>
+                    </tr>
+                    <tr>
+                    <td>16.06</td>
+                    <td>Spring 2024</td>
+                    <td>Principles of Automatic Control</td>
+                    </tr>
+                    <tr>
+                    <td>16.09</td>
+                    <td>Spring 2024</td>
+                    <td>Statistics and Probability</td>
+                    </tr>
+                    <tr>
+                    <td>16.90</td>
+                    <td>Spring 2024</td>
+                    <td>Computational Methods for Aerospace Engineering Problem Solving</td>
+                    </tr>
+                    <tr>
+                    <td>15.373</td>
+                    <td>Spring 2024</td>
+                    <td>Venture Engineering</td>
+                    </tr>
+
+                    <tr colSpan={3}><br></br></tr>
+                    <tr>
+                    <td colSpan={3}>Senior Year: 2024-2025</td>
+
+                    </tr>
+
+                    <tr>
+                    <td>15.951</td>
+                    <td>Fall 2024</td>
+                    <td>Independent Study in Management</td>
+                    </tr>
+                    <tr>
+                    <td>21H.261</td>
+                    <td>Fall 2024</td>
+                    <td>Modern Iran: A Century of Revolution</td>
+                    </tr>
+                    <tr>
+                    <td>16.S811</td>
+                    <td>Fall 2024</td>
+                    <td>Advanced Manufacturing for Aerospace Engineers</td>
+                    </tr>
+                    
                 </tbody>
                 </Table>
 

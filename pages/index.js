@@ -21,7 +21,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Grayson Bertaina
         </h1>
-        <h3 className={styles.code}>MIT AeroAstro, Flight Instructor (CFII/MEI), Entrepeneur, Adventuerer.</h3>
+        <h3 className={styles.code}>MIT AeroAstro, Professional Pilot (ATP/CFII), Entrepeneur, Adventuerer.</h3>
 
 
         <div className={styles.landing}></div>
